@@ -15,13 +15,19 @@ BuildRequires: perl(Class::Inspector)
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(File::Basename)
 BuildRequires: perl(File::Path)
+BuildRequires: perl(File::Remove)
 BuildRequires: perl(File::Spec)
+BuildRequires: perl(File::pushd)
 BuildRequires: perl(Getopt::Long)
 BuildRequires: perl(ORLite)
 BuildRequires: perl(Params::Util)
 BuildRequires: perl(Template)
 BuildRequires: perl(Test::More)
+BuildRequires: perl(Test::Pod)
 BuildRequires: perl(Test::Script)
+BuildRequires: perl(Test::XT)
+BuildRequires: perl(autodie) >= 2.100.0
+
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
