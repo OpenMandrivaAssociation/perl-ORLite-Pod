@@ -61,8 +61,6 @@ rm -rf %buildroot
 %files
 %defattr(-,root,root)
 %doc README LICENSE Changes
-%{_mandir}/man3/*
+%{_bindir}/*
+%{_mandir}/man?/*
 %perl_vendorlib/*
-/usr/bin/orlite2pod
-/usr/share/man/man1/orlite2pod.1.lzma
-
