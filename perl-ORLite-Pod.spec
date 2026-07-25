@@ -1,15 +1,15 @@
 %define upstream_name    ORLite-Pod
-%define upstream_version 0.10
+%define upstream_version 0.11
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Documentation generator for ORLite
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/ORLite/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://svn.ali.as/cpan/trunk/ORLite-Pod
+Source0:	https://cpan.metacpan.org/authors/id/A/AD/ADAMK/ORLite-Pod-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
